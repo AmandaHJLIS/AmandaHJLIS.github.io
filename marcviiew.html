@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MarcViiew — a Wii homebrew library catalogue using MARC 21, GameTDB metadata, and ISO 2709.">
+  <title>MarcViiew — AmandaHJLIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="./">AmandaHJLIS</a>
+  <nav><a href="marcviiew.html">MarcViiew</a><a href="viiewlib.html">ViiewLib</a><a href="research.html">Research</a><a href="https://github.com/AmandaHJLIS">GitHub</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div><p class="eyebrow">PROJECT · WII HOMEBREW · MARC 21</p><h1>MarcViiew</h1>
+  <p class="lead">A Wii homebrew library catalogue for organising, discovering, and exporting metadata about Wii software.</p>
+  <div class="actions"><a class="button primary" href="https://github.com/AmandaHJLIS/MarcViiew">View repository</a><a class="button" href="research.html">Explore research</a></div></div>
+  <aside class="hero-card"><span class="card-label">CURRENT MILESTONE</span><strong>0.6.0-beta</strong><p>Feature-focused catalogue discovery is substantially implemented, with current development moving toward API refinement, validation, UI work, and testing.</p></aside>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><p class="eyebrow">WHAT IT DOES</p><h2>A library catalogue built for software.</h2></div>
+  <div class="cards">
+    <article class="card"><span class="tag">DISCOVERY</span><h3>Find software across storage</h3><p>MarcViiew can discover physical Wii software and compatible digital software across the Wii's storage environments.</p><ul><li>WBFS software on SD and USB</li><li>NAND-installed titles</li><li>SD/USB digital-title discovery</li><li>Duplicate discovery merging</li></ul></article>
+    <article class="card"><span class="tag">METADATA</span><h3>Turn titles into records</h3><p>Catalogue entries combine game metadata with Wii-specific source and distribution information.</p><ul><li>GameTDB metadata</li><li>MARC 21 records</li><li>Source metadata such as SD, USB, or NAND</li><li>Physical versus digital distribution</li></ul></article>
+    <article class="card"><span class="tag">MARC 21</span><h3>Work with bibliographic records</h3><p>The catalogue uses a project-specific MARC 21 profile for Wii software and supports viewing records directly on hardware.</p><ul><li>MARC field display</li><li>Wii-specific cataloguing rules</li><li>Physical carrier treatment</li><li>Imported external MARC records</li></ul></article>
+    <article class="card"><span class="tag">ISO 2709</span><h3>Export the records</h3><p>MarcViiew connects catalogue records to ISO 2709 encoding through ViiewLib.</p><ul><li>ISO 2709 export</li><li>Record encoding experiments</li><li>Portable MARC data workflows</li><li>Hardware-tested workflows</li></ul></article>
+  </div>
+</div></section>
+
+<section class="section research-section"><div class="container">
+  <p class="eyebrow">CATALOGUING MODEL</p><h2>Separating what software is from where it came from.</h2>
+  <p class="lead">MarcViiew distinguishes <strong>distribution</strong> from <strong>source</strong>. A title can be physically distributed while currently stored on SD, or digitally distributed while installed on NAND. Keeping those concepts separate makes the catalogue more useful for preservation and collection management.</p>
+  <div class="principles"><span>Distribution</span><span>Source</span><span>Provenance</span><span>MARC 21</span><span>ISO 2709</span><span>Digital preservation</span></div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><p class="eyebrow">DEVELOPMENT</p><h2>Where MarcViiew goes next.</h2></div>
+  <div class="research-list">
+    <div><span>01</span><strong>ViiewLib and API refinement</strong><p>Refine the underlying MARC/ISO 2709 APIs and improve documentation, validation, and interoperability.</p></div>
+    <div><span>02</span><strong>Imported-record workflows</strong><p>Continue improving the handling, validation, and organisation of externally supplied MARC records.</p></div>
+    <div><span>03</span><strong>UI refinement</strong><p>Improve navigation, layout, scrolling, text presentation, and reusable Wii interface components.</p></div>
+    <div><span>04</span><strong>Research tooling</strong><p>Longer term, extend the project toward tools for documenting Wii/WiiWare file structures and preservation research.</p></div>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© 2026 AmandaHJLIS</span><span><a href="./">Home</a> · <a href="viiewlib.html">ViiewLib</a> · <a href="research.html">Research</a></span></div></footer>
+</body>
+</html>

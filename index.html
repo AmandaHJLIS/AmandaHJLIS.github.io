@@ -1,9 +1,64 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-    <title>MarcViiew</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MarcViiew, ViiewLib, and LIS-oriented research into Wii software, cataloguing, preservation, and reverse engineering.">
+  <title>AmandaHJLIS — MarcViiew & ViiewLib</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>MarcViiew</h1>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="./">AmandaHJLIS</a>
+  <nav><a href="#projects">Projects</a><a href="#research">Research</a><a href="#about">About</a><a href="https://github.com/AmandaHJLIS">GitHub</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <p class="eyebrow">LIBRARY & INFORMATION SCIENCE × WII HOMEBREW</p>
+    <h1>Organising, preserving, and understanding Wii software.</h1>
+    <p class="lead">Independent software and research exploring MARC 21 cataloguing, digital preservation, Wii homebrew, and the information structures behind software collections.</p>
+    <div class="actions"><a class="button primary" href="#projects">Explore projects</a><a class="button" href="#research">Explore research</a></div>
+  </div>
+  <aside class="hero-card"><span class="card-label">CURRENT DEVELOPMENT</span><strong>MarcViiew 0.6.0-beta</strong><p>Catalogue discovery, MARC 21 workflows, ViiewLib integration, and Wii software metadata.</p><a href="https://github.com/AmandaHJLIS/MarcViiew">View repository →</a></aside>
+</div></section>
+
+<section id="projects" class="section"><div class="container">
+  <div class="section-heading"><p class="eyebrow">PROJECTS</p><h2>Software for a digital library of Wii software.</h2></div>
+  <div class="cards">
+    <article class="card"><div class="card-top"><span class="tag">WII HOMEBREW</span><span class="status">0.6.0-BETA</span></div>
+      <h3>MarcViiew</h3><p>A Wii homebrew library catalogue built around MARC 21, GameTDB metadata, ISO 2709 records, and Wii-specific cataloguing rules.</p>
+      <ul><li>Physical and digital software discovery</li><li>NAND, SD, and USB catalogue integration</li><li>Imported MARC 21 records</li><li>ISO 2709 export and MARC viewing</li><li>Source and distribution metadata</li></ul>
+      <a class="text-link" href="https://github.com/AmandaHJLIS/MarcViiew">MarcViiew repository →</a>
+    </article>
+    <article class="card"><div class="card-top"><span class="tag">C LIBRARY</span><span class="status">DEVELOPMENT</span></div>
+      <h3>ViiewLib</h3><p>A lightweight C library for working with MARC 21 records and ISO 2709-encoded bibliographic data, designed with portability and a small API in mind.</p>
+      <ul><li>MARC 21 record handling</li><li>ISO 2709 encoding and decoding</li><li>Validation and manipulation APIs</li><li>Examples and testing documentation</li></ul>
+      <a class="text-link" href="https://github.com/AmandaHJLIS/Viiewlib">ViiewLib repository →</a>
+    </article>
+  </div>
+</div></section>
+
+<section id="research" class="section research-section"><div class="container research-grid">
+  <div><p class="eyebrow">RESEARCH</p><h2>Wii software as an information-preservation problem.</h2>
+    <p>Future research will investigate Wii and WiiWare file structures, development remnants, software provenance, modification workflows, and preservation methodology.</p>
+    <p>The goal is not only to keep software runnable, but to preserve knowledge about how that software is structured, documented, identified, and understood.</p>
+  </div>
+  <div class="research-list">
+    <div><span>01</span><strong>WiiWare research</strong><p>Investigating individual titles, archives, file structures, and development artifacts.</p></div>
+    <div><span>02</span><strong>File structure analysis</strong><p>Documenting unknown formats, binary structures, offsets, hashes, and relationships.</p></div>
+    <div><span>03</span><strong>LIS methodology</strong><p>Applying metadata, provenance, classification, documentation, and preservation principles to reverse engineering.</p></div>
+  </div>
+</div></section>
+
+<section id="about" class="section"><div class="container about">
+  <p class="eyebrow">ABOUT</p><h2>Built from a library and information science perspective.</h2>
+  <p>MarcViiew and ViiewLib are independent projects exploring what happens when traditional library concepts are applied to software collections and Wii homebrew development.</p>
+  <div class="principles"><span>Metadata</span><span>Provenance</span><span>Preservation</span><span>Classification</span><span>Authority control</span><span>Technical documentation</span></div>
+</div></section>
+</main>
+
+<footer class="site-footer"><div class="container footer-inner"><span>© 2026 AmandaHJLIS</span><span>MarcViiew · ViiewLib · LIS & Wii research</span></div></footer>
 </body>
 </html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ViiewLib — a lightweight C library for MARC 21 and ISO 2709 data.">
+  <title>ViiewLib — AmandaHJLIS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><div class="container nav">
+  <a class="brand" href="./">AmandaHJLIS</a>
+  <nav><a href="marcviiew.html">MarcViiew</a><a href="viiewlib.html">ViiewLib</a><a href="research.html">Research</a><a href="https://github.com/AmandaHJLIS">GitHub</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div><p class="eyebrow">PROJECT · C LIBRARY · MARC 21 / ISO 2709</p><h1>ViiewLib</h1>
+  <p class="lead">A lightweight C library for reading, manipulating, validating, and encoding MARC 21 records and ISO 2709 data.</p>
+  <div class="actions"><a class="button primary" href="https://github.com/AmandaHJLIS/Viiewlib">View repository</a><a class="button" href="marcviiew.html">See MarcViiew</a></div></div>
+  <aside class="hero-card"><span class="card-label">ROLE IN THE ECOSYSTEM</span><strong>MarcViiew's record layer</strong><p>ViiewLib provides the lower-level MARC and ISO 2709 functionality that lets MarcViiew work with structured bibliographic data.</p></aside>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><p class="eyebrow">PURPOSE</p><h2>Small, focused tools for structured bibliographic data.</h2></div>
+  <div class="cards">
+    <article class="card"><span class="tag">MARC 21</span><h3>Record handling</h3><p>ViiewLib provides C-side structures and operations for working with MARC records and their fields and subfields.</p></article>
+    <article class="card"><span class="tag">ISO 2709</span><h3>Encoding and decoding</h3><p>The library connects structured MARC data with ISO 2709's record-oriented interchange format.</p></article>
+    <article class="card"><span class="tag">VALIDATION</span><h3>Safer record workflows</h3><p>Validation and error handling are part of the longer-term refinement work, with the goal of making record operations predictable and easier to debug.</p></article>
+    <article class="card"><span class="tag">PORTABILITY</span><h3>Designed for homebrew</h3><p>The project is developed in C with Wii homebrew as its primary environment, while keeping the library's concepts focused enough to be useful beyond one application.</p></article>
+  </div>
+</div></section>
+
+<section class="section research-section"><div class="container">
+  <p class="eyebrow">WHY A LIBRARY?</p><h2>Keep the catalogue application separate from the record machinery.</h2>
+  <p class="lead">MarcViiew needs to think about games, storage, discovery, catalogue interfaces, and Wii hardware. ViiewLib can instead concentrate on MARC 21 and ISO 2709. That separation makes the projects easier to test, document, and potentially reuse.</p>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-heading"><p class="eyebrow">DEVELOPMENT</p><h2>Future work.</h2></div>
+  <div class="research-list">
+    <div><span>01</span><strong>API refinement</strong><p>Improve naming, consistency, documentation, and the public interface as real MarcViiew usage exposes edge cases.</p></div>
+    <div><span>02</span><strong>MARC validation</strong><p>Expand validation and interoperability testing against MARC 21 and ISO 2709 expectations.</p></div>
+    <div><span>03</span><strong>Test coverage</strong><p>Build more focused examples and regression tests around encoding, decoding, malformed records, and boundary conditions.</p></div>
+    <div><span>04</span><strong>Documentation</strong><p>Develop clearer API and implementation documentation so the library can stand on its own as a reusable component.</p></div>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container footer-inner"><span>© 2026 AmandaHJLIS</span><span><a href="./">Home</a> · <a href="marcviiew.html">MarcViiew</a> · <a href="research.html">Research</a></span></div></footer>
+</body>
+</html>

@@ -17,14 +17,14 @@
   <div><p class="eyebrow">PROJECT · WII HOMEBREW · MARC 21</p><h1>MarcViiew</h1>
   <p class="lead">A Wii homebrew library catalogue for organising, discovering, and exporting metadata about Wii software.</p>
   <div class="actions"><a class="button primary" href="https://github.com/AmandaHJLIS/MarcViiew">View repository</a><a class="button" href="research.html">Explore research</a></div></div>
-  <aside class="hero-card"><span class="card-label">CURRENT MILESTONE</span><strong>0.7.0-beta</strong><p>Hardware-tested catalogue discovery, imported MARC records, and refined ViiewLib integration are now consolidated in the current beta milestone.</p></aside>
+  <aside class="hero-card"><span class="card-label">CURRENT MILESTONE</span><strong>0.7.0-beta</strong><p>Hardware-tested catalogue discovery, read-only NAND research, imported MARC records, and refined ViiewLib integration are now consolidated in the current beta milestone.</p></aside>
 </div></section>
 <section class="section"><div class="container">
   <div class="section-heading"><p class="eyebrow">WHAT IT DOES</p><h2>A library catalogue built for software.</h2></div>
   <div class="cards">
     <article class="card"><span class="tag">DISCOVERY</span><h3>Find software across storage</h3><p>MarcViiew can discover physical Wii software and compatible digital software across the Wii's storage environments.</p><ul><li>WBFS software on SD and USB</li><li>NAND-installed titles</li><li>SD/USB digital-title discovery</li><li>Duplicate discovery merging</li></ul></article>
     <article class="card"><span class="tag">METADATA</span><h3>Turn titles into records</h3><p>Catalogue entries combine game metadata with Wii-specific source and distribution information.</p><ul><li>GameTDB metadata</li><li>MARC 21 records</li><li>Source metadata such as SD, USB, or NAND</li><li>Physical versus digital distribution</li></ul></article>
-    <article class="card"><span class="tag">MARC 21</span><h3>Work with bibliographic records</h3><p>The catalogue uses a project-specific MARC 21 profile for Wii software and supports viewing records directly on hardware.</p><ul><li>MARC field display</li><li>Wii-specific cataloguing rules</li><li>Physical carrier treatment</li><li>Imported external MARC records</li></ul></article>
+    <article class="card"><span class="tag">MARC 21</span><h3>Work with bibliographic records</h3><p>The catalogue uses a project-specific MARC 21 profile for Wii software and supports viewing records directly on hardware.</p><ul><li>MARC field display</li><li>Wii-specific cataloguing rules</li><li>Physical carrier treatment using MARC 21 field 338</li><li>Imported external MARC records</li></ul></article>
     <article class="card"><span class="tag">ISO 2709</span><h3>Export the records</h3><p>MarcViiew connects catalogue records to ISO 2709 encoding through ViiewLib.</p><ul><li>ISO 2709 export</li><li>Record encoding experiments</li><li>Portable MARC data workflows</li><li>Hardware-tested workflows</li></ul></article>
   </div>
 </div></section>
@@ -46,9 +46,9 @@
   <div class="section-heading"><p class="eyebrow">DEVELOPMENT</p><h2>Where MarcViiew goes next.</h2></div>
   <div class="research-list">
     <div><span>01</span><strong>MARC validation</strong><p>Continue expanding MARC 21 and ISO 2709 validation and interoperability testing.</p></div>
-    <div><span>02</span><strong>Metadata research</strong><p>Research additional MARC subfields and cataloguing decisions before making deliberate database-schema changes.</p></div>
+    <div><span>02</span><strong>Metadata research</strong><p>Document additional MARC fields and subfields, including the current 338 carrier-type treatment, before making deliberate database-schema changes.</p></div>
     <div><span>03</span><strong>UI refinement</strong><p>Improve navigation, layout, scrolling, text presentation, and reusable Wii interface components.</p></div>
-    <div><span>04</span><strong>Research tooling</strong><p>Longer term, extend the project toward tools for documenting Wii/WiiWare file structures and preservation research.</p></div>
+    <div><span>04</span><strong>NAND research</strong><p>Continue documenting title IDs, TMDs, content records, shared content, content.map relationships, and hardware observations.</p></div>
   </div>
 </div></section>
 </main>
